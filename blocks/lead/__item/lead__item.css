@@ -1,0 +1,11 @@
+.lead__item {
+  width: 180px;
+  height: 604px;
+  background-image: url('../../../img/1440/lead__shadow.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.lead__item:nth-child(2n) {
+  margin-top: 81px;
+}

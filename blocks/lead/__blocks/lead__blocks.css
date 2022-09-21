@@ -1,0 +1,8 @@
+.lead__blocks {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 112px auto 80px;
+  padding: 0;
+  width: 1200px;
+}
