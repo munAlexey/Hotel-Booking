@@ -1,0 +1,7 @@
+.benefit__blocks {
+  width: 1200px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

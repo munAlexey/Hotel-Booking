@@ -1,0 +1,8 @@
+.reservation__link-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
