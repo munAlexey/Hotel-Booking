@@ -1,5 +1,13 @@
 .interior__position {
-  position: absolute;
-  bottom: 29px;
-  left: 510px;
+  margin: 10px auto 30px;
+  width: 71px;
+}
+
+@media screen and (min-width: 768px) {
+  .interior__position {
+    position: absolute;
+    bottom: 29px;
+    left: 510px;
+    margin: 0;
+  }
 }

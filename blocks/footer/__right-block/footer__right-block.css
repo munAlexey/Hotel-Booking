@@ -1,3 +1,11 @@
 .footer__right-block {
-  width: 636px;
+  grid-area: right;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__right-block {
+    width: 636px;
+  }
 }

@@ -1,3 +1,16 @@
 .footer__left-block {
-  width: 229px;
+  grid-area: left;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__left-block {
+    width: 229px;
+    display: block;
+    padding: 0;
+  }
 }

@@ -1,8 +1,16 @@
 .reservation__list {
-  margin: 0 auto;
+  width: 100%;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__list {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+  }
 }

@@ -1,4 +1,11 @@
 .benefit__img {
-  width: 384px;
-  height: 384px;
+  width: 100%;
+  grid-area: img;
+}
+
+@media screen and (min-width: 768px) {
+  .benefit__img {
+    width: 384px;
+    height: 384px;
+  }
 }

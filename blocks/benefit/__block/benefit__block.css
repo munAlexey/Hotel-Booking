@@ -1,4 +1,13 @@
 .benefit__block {
-  display: flex;
-  gap: 126px;
+  display: grid;
+  grid-template-areas: 
+  "text"
+  "img";
+}
+
+@media screen and (min-width: 768px) {
+  .benefit__block {
+    display: flex;
+    gap: 126px;
+  }
 }

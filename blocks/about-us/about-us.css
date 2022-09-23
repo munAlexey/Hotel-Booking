@@ -1,4 +1,11 @@
 .about-us {
-  width: 1440px;
+  width: 90%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    width: 1440px;
+    margin: 0 auto;
+  }
 }

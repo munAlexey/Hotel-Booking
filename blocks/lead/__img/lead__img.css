@@ -1,4 +1,10 @@
 .lead__img { 
-  width: 180px;
-  height: 588px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__img { 
+    width: 180px;
+    height: 588px;
+  }
 }

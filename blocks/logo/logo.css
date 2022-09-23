@@ -7,3 +7,12 @@
   text-decoration: none;
   color: #192252;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .logo {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

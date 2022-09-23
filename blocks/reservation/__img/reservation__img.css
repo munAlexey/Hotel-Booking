@@ -1,4 +1,11 @@
 .reservation__img {
-  width: 384px;
-  height: 489px;
+  width: 100%;
+  grid-area: img;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__img {
+    width: 384px;
+    height: 489px;
+  }
 }

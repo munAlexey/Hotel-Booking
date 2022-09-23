@@ -1,0 +1,14 @@
+.header__block {
+  width: 1200px;
+  margin: 46px auto 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .header__block {
+    width: 90%;
+    margin: 14px auto 10px;
+  }
+}

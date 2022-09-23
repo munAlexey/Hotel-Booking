@@ -10,25 +10,32 @@
 <body>
   <div class="page">
     <header class="header">
-      <a href="#" class="logo header__logo">
-        HotelBooking
-      </a>
-      <nav>
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="#" class="header__link link">Дома</a>
-          </li>
-          <li class="header__item">
-            <a href="#" class="header__link link">Бронирование</a>
-          </li>
-          <li class="header__item">
-            <a href="#" class="header__link link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="button header__button" type="button">
-        Бронировать
-      </button>
+      <div class="header__block">
+        <a href="#" class="logo">
+          HotelBooking
+        </a>
+        <div class="burger">
+          <span class="burger__menu"></span>
+        </div>
+        <div class="header__nav">
+          <nav>
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link link">Дома</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link link">Бронирование</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button header__button" type="button">
+            Бронировать
+          </button>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -73,7 +80,7 @@
           <div class="benefit__block">
             <div class="benefit__text-block">
               <h2 class="section-title benefit__title-first">Активности</h2>
-              <p class="section-subtitle">К вашим услугам наши прекрасные повора, которые приготовят вкусную еду по составленную для вас персональному меню.Также вы сможете воспользоваться СПА, тренажерным залом и прочими услугами, доступными на нашей территории.</p>
+              <p class="section-subtitle benefit__subtitle">К вашим услугам наши прекрасные повора, которые приготовят вкусную еду по составленную для вас персональному меню.Также вы сможете воспользоваться СПА, тренажерным залом и прочими услугами, доступными на нашей территории.</p>
             </div>
             <img class="benefit__img" src="./img/1440/image_benefit1.jpg" alt="Активности">
           </div>
@@ -81,7 +88,7 @@
             <img class="benefit__img" src="./img/1440/image_benefit2.jpg" alt="100% Натуральные продукты">
             <div class="benefit__text-block">
               <h2 class="section-title benefit__title-second">100% Натуральные продукты</h2>
-              <p class="section-subtitle">При приготовлении наших блюд мы используем только свежие, полезные, натуральные продукты.</p>
+              <p class="section-subtitle benefit__subtitle">При приготовлении наших блюд мы используем только свежие, полезные, натуральные продукты.</p>
             </div>
           </div>
         </div>
@@ -92,7 +99,7 @@
         <div class="interior__imgs">
           <div class="interior__main-img">
             <a href="#">
-              <img src="./img/1440/image_22.jpg" alt="Наши интерьеры - примеры">
+              <img class="interior__img" src="./img/1440/image_22.jpg" alt="Наши интерьеры - примеры">
             </a>
             <div class="interior__position">
               <div class="toogle">
@@ -100,7 +107,7 @@
                   <li class="toogle__item">
                     <a href="#">
                       <svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="4" cy="4.32097" rx="4" ry="3.9633" fill="white" fill-opacity="0.85"/>
+                        <ellipse class="toogle__svg" cx="4" cy="4.32097" rx="4" ry="3.9633" fill="white" fill-opacity="0.85"/>
                       </svg>
                     </a>
                   </li>
@@ -114,14 +121,14 @@
                   <li class="toogle__item">
                     <a href="#">
                       <svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="4" cy="4.32097" rx="4" ry="3.9633" fill="white" fill-opacity="0.85"/>
+                        <ellipse class="toogle__svg" cx="4" cy="4.32097" rx="4" ry="3.9633" fill="white" fill-opacity="0.85"/>
                       </svg>
                     </a>
                   </li>
                   <li class="toogle__item">
                     <a href="#">
                       <svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="4" cy="4.32097" rx="4" ry="3.9633" fill="white" fill-opacity="0.85"/>
+                        <ellipse class="toogle__svg" cx="4" cy="4.32097" rx="4" ry="3.9633" fill="white" fill-opacity="0.85"/>
                       </svg>
                     </a>
                   </li>
@@ -161,6 +168,9 @@
               <p class="section-subtitle reservation__item-subtitle">
                 Уютный коттедж с  3 спальнями и  бильярдом. 
               </p>
+              <a href="#" class="reservation__more">
+                <span class="reservation__arrow">Подробнее</span>
+              </a>
             </li>
             <li class="reservation__item">
               <img class="reservation__img" src="./img/1440/reservation-2.jpg" alt="Большой дом">
@@ -168,6 +178,9 @@
               <p class="section-subtitle reservation__item-subtitle">
                 266 кв.м. с тремя спальнями, четырьмя санузлами, камином и бильярдом. 
               </p>
+              <a href="#" class="reservation__more">
+                <span class="reservation__arrow">Подробнее</span>
+              </a>
             </li>
             <li class="reservation__item">
               <img class="reservation__img" src="./img/1440/reservation-3.jpg" alt="Двухэтажный дом">
@@ -175,6 +188,9 @@
               <p class="section-subtitle reservation__item-subtitle">
                 Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально подойдет для полноценного празднования нового года. 
               </p>
+              <a href="#" class="reservation__more">
+                <span class="reservation__arrow">Подробнее</span>
+              </a>
             </li>
           </ul>
           <ul class="reservation__link-list">
