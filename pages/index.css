@@ -96,3 +96,21 @@
 @import url('../blocks/reviews/__subtitle/reviews__subtitle.css');
 @import url('../blocks/reviews/__name/reviews__name.css');
 @import url('../blocks/reviews/__toogle/reviews__toogle.css');
+
+/* footer */
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__block/footer__block.css');
+@import url('../blocks/footer/__left-block/footer__left-block.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__subtitle/footer__subtitle.css');
+@import url('../blocks/footer/__social-list/footer__social-list.css');
+@import url('../blocks/footer/__right-block/footer__right-block.css');
+@import url('../blocks/footer/__booking/footer__booking.css');
+@import url('../blocks/footer/__contacts/footer__contacts.css');
+@import url('../blocks/footer/__home/footer__home.css');
+@import url('../blocks/footer/__nav/footer__nav.css');
+@import url('../blocks/footer/__nav-title/footer__nav-title.css');
+@import url('../blocks/footer/__nav-list/footer__nav-list.css');
+@import url('../blocks/footer/__nav-item/footer__nav-item.css');
+@import url('../blocks/footer/__nav-link/footer__nav-link.css');
