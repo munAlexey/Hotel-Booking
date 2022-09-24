@@ -11,16 +11,17 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: 0 auto;
+    margin: 80px auto;
     gap: 3%;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .about-us__block {
     display: flex;
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
+    padding: 80px 0;
   }
 }

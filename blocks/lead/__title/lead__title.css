@@ -11,6 +11,12 @@
 
 @media screen and (min-width: 1024px) {
   .lead__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__title {
     font-size: 48px;
   }
 }

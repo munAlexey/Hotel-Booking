@@ -15,10 +15,10 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .lead__text-block {
     width: 587px;
-    display: block;
     margin: 135px 24px 0 0;
+    justify-content: flex-start;
   }
 }

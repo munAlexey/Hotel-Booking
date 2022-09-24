@@ -5,13 +5,11 @@
 
 @media screen and (min-width: 768px) {
   .footer { 
-    min-width: 100%;
-    margin: 0 auto;
-    background-color: #0B265A;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .footer { 
     min-width: 1440px;
     margin: 0 auto;

@@ -19,6 +19,14 @@
 
 @media screen and (min-width: 1024px) {
   .footer__block {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__block {
     width: 1200px;
     margin: 0 auto;
     padding: 120px 0;
