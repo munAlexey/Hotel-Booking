@@ -6,6 +6,13 @@
 @media screen and (min-width: 768px) {
   .lead {
     margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    margin: 0 auto;
     width: 1440px;
   }
 }

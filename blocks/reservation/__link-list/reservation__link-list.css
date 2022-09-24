@@ -8,6 +8,19 @@
     padding: 0;
     margin: 0;
     display: flex;
+    width: 100%;
+    gap: 5%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0;
     width: 1200px;
     justify-content: space-between;
   }

@@ -71,7 +71,7 @@
 /* section interior */
 
 @import url('../blocks/interior/interior.css');
-@import url('../blocks/interior/__title/interior__ttitle.css');
+@import url('../blocks/interior/__title/interior__title.css');
 @import url('../blocks/interior/__imgs/interior__imgs.css');
 @import url('../blocks/interior/__main-img/interion__main-img.css');
 @import url('../blocks/interior/__list/interior__list.css');

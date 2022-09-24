@@ -10,6 +10,13 @@
 
 @media screen and (min-width: 768px) {
   .reservation__item {
+    width: 30%;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__item {
     width: 384px;
     display: block;
   }

@@ -9,7 +9,7 @@
   position: relative;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .reservation__link {
     font-weight: 400;
     font-size: 18px;

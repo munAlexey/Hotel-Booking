@@ -4,6 +4,13 @@
 
 @media screen and (min-width: 768px) {
   .benefit {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .benefit {
     width: 1440px;
     margin: 0 auto;
   }
