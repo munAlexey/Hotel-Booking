@@ -1,6 +1,6 @@
 .reservation__item-title {
   margin: 32px 0 16px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -12,7 +12,7 @@
 @media screen and (min-width: 768px) {
   .reservation__item-title {
     margin: 32px 0 16px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -24,7 +24,7 @@
 @media screen and (min-width: 768px) {
   .reservation__item-title {
     margin: 32px 0 16px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
